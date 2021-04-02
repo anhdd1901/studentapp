@@ -1,0 +1,20 @@
+.all {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.all button {
+  height: 100%;
+  border: 1px #7a7a7a;
+  background-color: #2593fc;
+  width: 20%;
+  cursor: pointer;
+}
+
+.all input {
+  width: 80%;
+  padding-left: 10px;
+}

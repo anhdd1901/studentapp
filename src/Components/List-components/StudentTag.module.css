@@ -1,0 +1,56 @@
+.all {
+  box-sizing: border-box;
+  margin-top: 20px;
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px #b3b3b3;
+  width: 85%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  height: 80%;
+}
+
+.avatar {
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar img {
+  height: 100%;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.number {
+  font-size: 14px;
+}
+
+.male {
+  font-size: 25px;
+  color: blue;
+}
+
+.female {
+  font-size: 25px;
+  color: darksalmon;
+}
